@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Hanken Grotesk;
+    font-size: 1.3rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    min-width: 250px;
+    margin: 0 auto;
+    width: 100%;
+}
+.top{
+    color: #fff;
+    text-align: center;
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    padding: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.remark p:first-child{
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+.bottom{
+    padding: 1em;
+}
+div.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 1em auto;
+    background: rgb(78,33,202);
+    background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(0,0,0,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top .acheived{
+    font-weight: 800;
+    font-size: 4rem;
+}
+p.summary{
+   font-weight: 700;
+   color: hsl(224, 30%, 27%);
+}
+.brief{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0.8em;
+    margin-top: 0.5em;
+}
+.brief > .row{
+    font-weight: 500;
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    color: hsl(224, 30%, 27%);
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+.reaction .category{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+.memory .category{
+    color: hsl(39, 100%, 56%); 
+}
+.verbal{
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+.verbal .category{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsla(234, 85%, 45%, 10%);
+}
+.visual .category{
+    color: hsl(234, 85%, 45%);
+}
+
+.row > .row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+span.total{
+    color: hsl(229, 12%, 71%);
+}
+button{
+    width: 100%;
+    border-radius: 2em;
+    text-align: center;
+    padding: 0.5em 0;
+    margin-top: 0.8em;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+}
+@media only screen and (min-width: 650px){
+    .card{
+        flex-direction: row;
+        width: 80%;
+        border-radius: 1em;
+        margin: 3em auto;
+        box-shadow: 2px 2px 18px #c8c7ff;
+    }
+    .top{
+        width: 100%;
+        border-radius: 1em;
+        padding: 3em 1em;
+    }
+    .bottom{
+        width: 100%;
+        padding: 3em 1em;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
