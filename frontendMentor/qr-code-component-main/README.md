@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
-- Live Site URL: [](https://fancy-rolypoly-e7bb5f.netlify.app/)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-qrcode-component-using-html-and-css-am6E-ryK9R
+- Live Site URL: https://fancy-rolypoly-e7bb5f.netlify.app/
 
 ## My process
 
