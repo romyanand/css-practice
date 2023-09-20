@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-component-main-HJSNuOW95b
 - Live Site URL: https://kaleidoscopic-biscochitos-95f301.netlify.app/
 
 ## My process
