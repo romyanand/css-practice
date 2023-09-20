@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./order-summary.png)
+![](./order-summary.jpg)
 
 
 
