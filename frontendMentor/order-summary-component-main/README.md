@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://kaleidoscopic-biscochitos-95f301.netlify.app/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: https://kaleidoscopic-biscochitos-95f301.netlify.app/
 
 ## My process
 
